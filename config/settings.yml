@@ -1,0 +1,13 @@
+---
+riaknode:
+  - :name: 'riak-kv-1.example.net'
+  - :name: 'riak-kv-2.example.net'
+
+ldap:
+  :host:      'ldap.example.net'
+  :base:      'dc=example,dc=net'
+  :bind:      'cn=admin,dc=example,dc=net'
+  :pass:      'secret'
+
+cas:
+  :host:      'http://rubycas.example.net'

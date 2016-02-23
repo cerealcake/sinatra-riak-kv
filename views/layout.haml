@@ -1,0 +1,18 @@
+%html
+	%head
+		%meta{:charset => "utf-8"}
+		%title Node Collector
+		%meta{:name => "description", :content => ""}
+		%meta{:name => "author", :content => ""}
+
+		%meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}
+
+	%body
+		%div.pure-g{:id => "layout" }
+			%div.sidebar.pure-u-1.pure-u-md-1-4
+				%div.header
+					= haml :header
+			%div.content.pure-u-1.pure-u-md-3-4
+				= yield
+
+
